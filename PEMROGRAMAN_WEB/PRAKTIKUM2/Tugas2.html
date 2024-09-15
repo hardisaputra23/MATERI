@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimoni Berjalan</title>
+    <style>
+        .testimonial {
+            width: 300px;
+            height: 100px;
+            overflow: hidden;
+            border: 1px solid #000;
+            position: relative;
+        }
+        .testimonial p {
+            position: absolute;
+            width: 100%;
+            bottom: -100%;
+            animation: slideUp 5s linear infinite;
+        }
+        @keyframes slideUp {
+            0% {
+                bottom: -100%;
+            }
+            100% {
+                bottom: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="testimonial">
+        <p>Testimoni: Saya sangat puas dengan layanan ini!</p>
+    </div>
+</body>
+</html>
