@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    /* background-image: url('images/background.jpg'); */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* height: 100vh; */
+    background-size: cover; /* Agar gambar menutupi seluruh halaman */
+    background-position: center; /* Memusatkan gambar */
+    /* color: white; ] Warna teks */
+    /* font-family: Arial, sans-serif; */
+}
+
+h1 {
+    position: absolute;
+    top:200px; /* Sesuaikan nilai top sesuai kebutuhan */
+    left: 50%; /* Untuk membuat h1 berada di tengah horizontal */
+    transform: translateX(-50%); /* Untuk membuat h1 berada di tengah horizontal */
+    color: rgb(105, 9, 194);
+}
+
+h2 {
+    color: aliceblue;
+}
+
+#bilah {
+    background-color: rgb(56, 19, 90);
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    padding: 30px;
+}
+
+#Login {
+    color: aliceblue;
+    left: 50%;
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#login {
+    color: aliceblue;
+    right: 100%;
+}
